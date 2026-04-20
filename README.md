@@ -15,7 +15,7 @@
 </p>
 <br/>
 
-⸻
+
 
 🧠 Overview
 
@@ -29,7 +29,7 @@ A production-grade backend system that digitizes traffic violation workflows wit
 
 Users → React Frontend → Spring Boot APIs → MySQL Database
 
-⸻
+
 
 🛠️ Tech Stack
 
@@ -50,7 +50,6 @@ TRAFFIC_OFFICER	Issue violation tickets
 CITIZEN	Register vehicles, pay fines, raise disputes
 REVIEW_OFFICER	Resolve disputes
 
-⸻
 
 🔄 Workflow Engine
 
@@ -66,7 +65,7 @@ INITIATED → SUCCESS → FAILED
 
 OPEN → UNDER_REVIEW → APPROVED → REJECTED → CLOSED
 
-⸻
+
 
 🚀 Key Features
 
@@ -74,9 +73,7 @@ OPEN → UNDER_REVIEW → APPROVED → REJECTED → CLOSED
 * ✅ Strict role-based validation
 * ✅ Lifecycle-driven state management
 * ✅ Relational database with foreign key constraints
-* ✅ Clean and scalable REST API design
 
-⸻
 
 🗄️ Database Schema
 
@@ -89,7 +86,7 @@ Tables:
 * Payment_transactions
 * disputes
 
-⸻
+
 
 🔌 API Endpoints
 
@@ -101,7 +98,7 @@ Tickets	/api/tickets
 Payments	/api/payments
 Disputes	/api/disputes
 
-⸻
+
 
 ⚡ End-to-End Workflow
 
@@ -112,7 +109,6 @@ Disputes	/api/disputes
 5. Citizen raises dispute (if needed)
 6. Review officer resolves dispute
 
-⸻
 
 🧩 Setup Instructions
 
@@ -126,7 +122,7 @@ spring.datasource.url=jdbc:mysql://localhost:3306/stv_system
 spring.datasource.username=root
 spring.datasource.password=your_password
 
-⸻
+
 
 📈 Future Enhancements
 
@@ -136,14 +132,14 @@ spring.datasource.password=your_password
 * Notification System
 * Analytics Dashboard
 
-⸻
+
 
 👨‍💻 Author
 
 Ashish Sreevatsav Nandigam
 Full Stack Developer | Backend Engineer
 
-⸻
+
 
 🏁 Highlights
 
@@ -151,4 +147,4 @@ Full Stack Developer | Backend Engineer
 ✔ Real-world Workflow Modeling
 ✔ Scalable Backend Design
 
-⸻
+
