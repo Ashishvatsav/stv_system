@@ -1,9 +1,3 @@
-Here’s your final polished README upgrade with GitHub badges + architecture diagram (pro look) — just copy-paste.
-
-⸻
-
-:::writing{variant=“standard” id=“92841”}
-
 🚦 Smart Traffic Violation Ticket Issuance & Payment System
 
 <p align="center">
