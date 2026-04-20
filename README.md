@@ -1,19 +1,19 @@
-:::writing{variant=“standard” id=“92841”}
-
-🚦 Smart Traffic Violation Ticket Issuance & Payment System
-
+<h1 align="center">🚦 Smart Traffic Violation Ticket System</h1>
+<p align="center">
+  Role-Based Traffic Violation Management • Automated Fine Calculation • Workflow-Driven System
+</p>
 <p align="center">
   <img src="https://img.shields.io/badge/Backend-SpringBoot-green?style=for-the-badge&logo=springboot"/>
   <img src="https://img.shields.io/badge/Database-MySQL-blue?style=for-the-badge&logo=mysql"/>
   <img src="https://img.shields.io/badge/Language-Java-orange?style=for-the-badge&logo=java"/>
-  <img src="https://img.shields.io/badge/API-RESTful-yellow?style=for-the-badge"/>
-  <img src="https://img.shields.io/github/license/Ashishvatsav/stv_system?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/API-REST-yellow?style=for-the-badge"/>
 </p>
 <p align="center">
   <img src="https://img.shields.io/github/stars/Ashishvatsav/stv_system?style=social"/>
   <img src="https://img.shields.io/github/forks/Ashishvatsav/stv_system?style=social"/>
   <img src="https://img.shields.io/github/issues/Ashishvatsav/stv_system?style=social"/>
 </p>
+<br/>
 
 ⸻
 
@@ -23,8 +23,9 @@ A production-grade backend system that digitizes traffic violation workflows wit
 
 * Role-based access control
 * Automated fine calculation
-* Payment tracking
+* Payment tracking system
 * Dispute lifecycle management
+* Structured workflow transitions
 
 ⸻
 
@@ -46,18 +47,18 @@ Layer	Technology
 Backend	Spring Boot (Java 17)
 Database	MySQL
 ORM	Hibernate / JPA
-API	REST
+API	RESTful APIs
 Frontend	React.js (planned)
 
 ⸻
 
-👥 Roles & Responsibilities
+👥 Role-Based Access Control
 
-Role	Actions
-ADMIN	Monitor system, analytics
+Role	Responsibilities
+ADMIN	Monitor users, vehicles, tickets, payments, disputes
 TRAFFIC_OFFICER	Issue violation tickets
 CITIZEN	Register vehicles, pay fines, raise disputes
-REVIEW_OFFICER	Approve/reject disputes
+REVIEW_OFFICER	Resolve disputes
 
 ⸻
 
@@ -77,13 +78,13 @@ OPEN → UNDER_REVIEW → APPROVED → REJECTED → CLOSED
 
 ⸻
 
-🚀 Features
+🚀 Key Features
 
-* ✅ Automated fine calculation
-* ✅ Role-based validation
-* ✅ Lifecycle-driven state transitions
-* ✅ Relational DB with FK constraints
-* ✅ Clean REST API design
+* ✅ Automated fine calculation based on violation type
+* ✅ Strict role-based validation
+* ✅ Lifecycle-driven state management
+* ✅ Relational database with foreign key constraints
+* ✅ Clean and scalable REST API design
 
 ⸻
 
@@ -112,31 +113,38 @@ Disputes	/api/disputes
 
 ⸻
 
-⚡ Example Flow
+⚡ End-to-End Workflow
 
 1. Citizen registers vehicle
-2. Officer issues ticket
-3. System calculates fine
-4. Citizen pays → ticket PAID
-5. Citizen raises dispute
-6. Review officer resolves
+2. Traffic officer issues violation ticket
+3. System calculates fine automatically
+4. Citizen pays fine → ticket marked PAID
+5. Citizen raises dispute (if needed)
+6. Review officer resolves dispute
 
 ⸻
 
-🧩 Setup
+🧩 Setup Instructions
 
 git clone https://github.com/Ashishvatsav/stv_system.git
 cd stv_system
 mvn spring-boot:run
 
+Configure Database
+
+spring.datasource.url=jdbc:mysql://localhost:3306/stv_system
+spring.datasource.username=root
+spring.datasource.password=your_password
+
 ⸻
 
-📈 Future Scope
+📈 Future Enhancements
 
-* JWT Authentication
-* React dashboards
-* Swagger documentation
-* Analytics & reporting
+* JWT Authentication & Authorization
+* React Dashboard (All roles)
+* Swagger API Documentation
+* Notification System
+* Analytics Dashboard
 
 ⸻
 
@@ -149,8 +157,8 @@ Full Stack Developer | Backend Engineer
 
 🏁 Highlights
 
-✔ Clean architecture
-✔ Real-world workflow modeling
-✔ Scalable backend design
+✔ Clean Architecture
+✔ Real-world Workflow Modeling
+✔ Scalable Backend Design
 
 ⸻
