@@ -27,16 +27,6 @@ A production-grade backend system that digitizes traffic violation workflows wit
 * Dispute lifecycle management
 * Structured workflow transitions
 
-⸻
-
-🏗️ System Architecture
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Ashishvatsav/stv_system/main/assets/system-design.svg" width="800"/>
-</p>
-
-🔹 Flow
-
 Users → React Frontend → Spring Boot APIs → MySQL Database
 
 ⸻
