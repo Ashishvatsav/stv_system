@@ -35,7 +35,7 @@ A production-grade backend system that digitizes traffic violation workflows wit
 🏗️ System Architecture
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Ashishvatsav/stv_system/main/assets/system-design.png" alt="System Design Diagram" width="800"/>
+  <img src="https://raw.githubusercontent.com/Ashishvatsav/stv_system/main/assets/system-design.svg" width="800"/>
 </p>
 
 🔹 Flow
