@@ -1,3 +1,5 @@
+:::writing{variant=“standard” id=“92841”}
+
 🚦 Smart Traffic Violation Ticket Issuance & Payment System
 
 <p align="center">
